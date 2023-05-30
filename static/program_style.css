@@ -1,0 +1,10 @@
+/* style sheet for pramming books */
+.program_book {
+    height: auto;
+}
+
+.program_book h2 {
+    font-size: 2.5rem;
+    margin-left: 35rem;
+    font-family: 'Alkatra', cursive;
+}
