@@ -47,3 +47,70 @@
 	position: absolute;
 	right: 20rem;
 }
+
+@media screen and (max-width:1300px) {
+	.book_box h2 {
+		font-size: 2rem;
+		margin-left: 15rem;
+	}
+
+	.book_col h1 {
+		font-size: 1.3rem;
+	}
+
+	.pos {
+		left: 9rem
+	}
+
+	.button {
+		right: 10rem;
+		font-size: 1rem;
+	}
+}
+
+@media screen and (max-width:700px) {
+
+	.book_box h2 {
+		font-size: 1.5rem;
+		margin-left: 7rem;
+	}
+
+	.book_col h1 {
+		font-size: 1rem;
+	}
+
+	.pos {
+		left: 5rem;
+	}
+
+	.btnNew {
+		font-size: 1rem;
+		width: 6rem;
+	}
+
+	.button {
+		right: 5rem;
+		/* width: 16rem; */
+		/* font-size: 1rem; */
+	}
+}
+
+@media screen and (max-width:450px) {
+	.book_box h2 {
+		/* font-size: 1.5rem; */
+		margin-left: 5rem;
+	}
+
+	.pos {
+		left: 2rem;
+	}
+
+	.button {
+		right: 2rem;
+	}
+
+	.btnNew {
+		font-size: 1rem;
+		/* width: 2rem; */
+	}
+}
